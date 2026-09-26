@@ -1,2 +1,2 @@
 # CP-project
- created for my uni project there are many multi pourpose programs in it  
+ created for our uni project there are many multi pourpose programs in it  
