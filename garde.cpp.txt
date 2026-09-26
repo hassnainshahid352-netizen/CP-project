@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    char grade;
+    cout <<"enter grade:"<<endl;
+    cin>>grade;
+    if (grade=='A')
+    {
+        cout<<"exellent number"<<endl;
+    }
+    return 0;
+}
