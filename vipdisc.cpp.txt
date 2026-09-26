@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    bool VIP; 
+    int total;
+    cout<<"enter 1 if vip otherwise 0 and enter total amount"<<endl;
+    cin >> VIP >> total; 
+    if(VIP)
+     cout << "Discounted Total: " << total * 0.8; 
+    else 
+    cout << "Total: " << total; 
+    return 0;
+}
