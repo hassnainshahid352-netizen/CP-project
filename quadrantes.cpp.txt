@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x, y; 
+     cout<<"enter the value of x and y to find quadrant"<<endl;
+    cin >> x >> y; 
+    if(x > 0 && y > 0) 
+    cout << "First Quadrant"<<endl; 
+    else if(x < 0 && y > 0) 
+    cout << "Second Quadrant"<<endl; 
+    else if(x < 0 && y < 0) 
+    cout << "Third Quadrant"<<endl; 
+    else if(x > 0 && y < 0) 
+    cout << "Fourth Quadrant"<<endl;
+    else 
+    cout << "Origin or Axis"<<endl;
+    return 0;
+}
