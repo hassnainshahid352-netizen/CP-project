@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    string performance; 
+    cout<<"enter remarks exellent, good or average to find bonus"<<endl;
+    cin >> performance; 
+    if(performance == "Excellent")
+    cout << "20% Bonus"<<endl; 
+    else if(performance == "Good") 
+    cout << "10% Bonus"<<endl; 
+    else if(performance == "Average") 
+    cout << "5% Bonus"<<endl; 
+    else 
+    cout << "No Bonus"<<endl; 
+    return 0;
+}
