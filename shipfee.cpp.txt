@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float weight; 
+    cout<<"enter weight"<<endl;
+    cin >> weight; 
+    if(weight <= 2)
+    cout << "Fee: $50"<<endl;
+    else if(weight <= 5)
+    cout << "Fee: $100"<<endl; 
+    else 
+    cout << "Fee: $200"<<endl; 
+    return 0;
+}
